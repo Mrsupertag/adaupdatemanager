@@ -3,16 +3,16 @@ import requests
 import semver  # Ensure this library is installed: pip install semver
 
 # Configuration variables
-MINOR_REPO_API_URL = "https://api.github.com/repos/username/minor-repo/releases"
-MAJOR_REPO_API_URL = "https://api.github.com/repos/username/major-repo/releases"
+MINOR_REPO_API_URL = "https://api.github.com/repos/2048hertz/ada-minor-update-repo/releases"
+MAJOR_REPO_API_URL = "https://api.github.com/repos/2048hertz/ada-major-update-repo/releases"
 MAJOR_REPO_UPDATES_BRANCH = "updates"
-CURRENT_MINOR_VERSION = "0.0.0"  # Placeholder for the current minor version
-CURRENT_MAJOR_VERSION = "0.0.0"  # Placeholder for the current major version
+CURRENT_MINOR_VERSION = "0"  # Placeholder for the current minor version
+CURRENT_MAJOR_VERSION = "0"  # Placeholder for the current major version
 
 def main(page: ft.Page):
     page.title = "Ada Update Manager"
-    page.window_width = 400
-    page.window_height = 500
+    page.window_width = 800
+    page.window_height = 600
     page.theme_mode = ft.ThemeMode.LIGHT
 
     def toggle_theme(e):
