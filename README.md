@@ -1,4 +1,3 @@
-# robertosupdatemanager
-RobertOS Update Manager
+# Update Manager for AdaOS
 
-*NOTICE: REPOSITORY IS ARCHIVED BECAUSE ROBERTOS/ASTRAOS HAS BEEN ABANDONED, PLEASE LOOK AT ADAOS IF YOU ARE INTERESTED.*
+*NOTICE: UI is undeveloped.*
