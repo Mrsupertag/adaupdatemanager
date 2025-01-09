@@ -1,6 +1,6 @@
 import flet as ft
 import requests
-import semver  # Ensure this library is installed: pip install semver
+import semver  # Ensure that semver is installed 
 
 # Configuration variables
 MINOR_REPO_API_URL = "https://api.github.com/repos/2048hertz/ada-minor-update-repo/releases"
