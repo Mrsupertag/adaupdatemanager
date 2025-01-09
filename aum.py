@@ -98,7 +98,7 @@ def main(page: ft.Page):
     # Header
     header = ft.Text(
         value="Update Manager",
-        size=36,
+        size=128,
         weight=ft.FontWeight.BOLD,
         text_align=ft.TextAlign.CENTER,
     )
@@ -115,7 +115,7 @@ def main(page: ft.Page):
     status_text = ft.Text(
         value="Welcome to the Update Manager",
         weight=ft.FontWeight.BOLD,
-        size=16
+        size=32
     )
 
     # Buttons
